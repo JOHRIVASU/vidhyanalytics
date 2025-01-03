@@ -1,0 +1,8 @@
+pandas
+chardet
+sentence-transformers
+faiss-cpu
+numpy
+textblob
+streamlit
+prettytable
