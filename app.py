@@ -92,7 +92,7 @@ def display_results(results):
     else:
         st.write("No results found for your query. Try another search.")
 def main():
-    file_path = "C:/Users/VASU/Downloads/analyticsvidhya_courses_full_simulated.csv"
+    file_path = "analyticsvidhya_courses_full_simulated.csv"
     data = load_data(file_path)
     data = preprocess_data(data)
     data, embedding_model = generate_embeddings(data)
